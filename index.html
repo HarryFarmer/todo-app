@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>My To-Do List</h1>
+        <h2>Get stuff done quicker!</h2>
+
+        <div id="filterButtons">
+            <button data-filter="all">All</button>
+            <button data-filter="active">Active</button>
+            <button data-filter="completed">Completed</button>
+        </div>
+
+        <div class="todo-input">
+            <input type="text" id="taskInput" placeholder="Enter a task">
+            <button id="addTaskBtn" class="add-btn">Add</button>
+        </div>
+
+        <ul id="taskList"></ul>
+        <p id="emptyMessage" 
+        style="text-align: 
+        center; color: #666; margin-top: 20px; display: none;">
+  You're all caught up! 🎉
+</p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
